@@ -1,4 +1,4 @@
-# Bank Marketing (with social/economic context)
+<b>Bank Marketing (with social/economic context)</b>
 
 ## Introduction
 
