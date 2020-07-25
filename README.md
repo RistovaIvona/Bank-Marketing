@@ -25,6 +25,10 @@ plt.title('Distribution of classes')
 plt.xlabel('Target class')
 ```
 
+| Image	|  
+|:-----------:|
+| ![Class distribution](slass distribution.png)|
+
 Comment: According to data distribution (two classes "yes" and "no") there is an unbalance data distribution. "Yes'es" is 88% and "No's" are 12%. For better understanding the data..... Since he....
 
 #"Age" variable explanation:
