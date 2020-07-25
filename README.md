@@ -9,7 +9,7 @@
 <small><p>
  <i>"Data-driven marketing is the engine behind improved marketing results and it creates measurable internal accountability as marketers become more effective in planning, executing and proving the value of their work" - Lisa Arthur </i>
  
-Over the past decade,information consumption has drastically shot up, generating million terabytes of data every single day. For marketers, this amount of data is a gold mine.  If this data could be properly processed and analyzed, it can deliver valuable insights. Data Science is a field that extracts meaningful information from data and helps marketers in discerning the right insights. These insights can be on various marketing aspects such as customer intent, experience, behavior, etc that would help them in efficiently optimizing their marketing strategies and derive maximum revenue.</p>
+Over the past decade, information consumption has drastically shot up, generating million terabytes of data every single day. For marketers, this amount of data is a gold mine. If this data could be properly processed and analyzed, it can deliver valuable insights. Data Science is a field that extracts meaningful information from data and helps marketers in discerning the right insights.These insights can be on various marketing aspects such as customer intent, experience, behavior, etc that would help them in efficiently optimizing their marketing strategies and derive maximum revenue.</p>
 
 <p>This project is about marketing campaign of Portuguese bank for term deposits with data of contacted customers in period of 2008 to 2010 and their respond of the calls. The data has 41188 observations of calls with 20 customer’s demographic and transaction features each. Analyzing the customers’ features in correlation with their responses of the calls should lead to identify type of customers which are more likely to make term deposits.
 
@@ -34,7 +34,7 @@ In the part of outliers, because it is about personal information and we do not 
 
 <h3>Features Analysis and Visualization</h3>
 
-<img src="C:\Users\Jasmina\Desktop\data distribution.png">
+<img src="https://lh6.googleusercontent.com/46Gne0Rjfeuh70gjulwFy8Lg6VU0NVJm-KLtzMVE8GOevbsRIjaLE_xFuD9ncFpvhMTeed76Z5UPgeJ-bT8r=w1920-h942-rw">
 
 <p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). 
  
