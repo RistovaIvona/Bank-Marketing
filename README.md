@@ -1,14 +1,6 @@
-# Bank Classification
+# Bank Marketing (with social/economic context)
 
-Bank customer analysis has always been and will always be a topical issue. 
-The increasing number of campaigns in recent years reduces their effectiveness, so the market itself makes the campaigns to be conducted on a specific target group.
-
-In order to be able to define a successful campaign, it is necessary to make a market analysis as well as a customer analysis. 
-It is important to know who is our target group, what kind of campaign it is and of course how financially it would be supported.
-
-In this project, exactly these components are joined.
-It is about telemarketing for a Portuguese bank with data available in the period from 2008 to 2013. 
-The dataset initially contains 22 processed and required features for analysis.
+## Introduction
 
 Marketing campaigns these days are necessary in every business, so it is the case in the financial services market too. In order to make the campaign successful it is mandatory to make analysis of customers’ needs and behaviors which will help to target customers and make the marketing campaigns more effective.
 This project is about telemarketing campaign of Portuguese bank for term deposits with data of contacted customers in period of 2008 to 2010 and their respond of the calls. The data has 41188 observations of calls with 20 customer’s demographic and transaction features each. Analyzing the customers’ features in correlation with their responses of the calls should lead to identify type of customers which are more likely to make term deposits.
