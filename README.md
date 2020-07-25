@@ -1,4 +1,4 @@
-<b>Bank Marketing (with social/economic context)</b>
+<b><em>Bank Marketing (with social/economic context)</b></em>
 
 ## Introduction
 
