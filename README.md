@@ -14,7 +14,7 @@
 
 <h3>Introduction </h3>
 
-<small><p>
+<small><p style="color: red;">
  <i>"Data-driven marketing is the engine behind improved marketing results and it creates measurable internal accountability as marketers become more effective in planning, executing and proving the value of their work" - Lisa Arthur </i>
  
 Over the past decade, information consumption has drastically shot up, generating million terabytes of data every single day. For marketers, this amount of data is a gold mine. If this data could be properly processed and analyzed, it can deliver valuable insights. Data Science is a field that extracts meaningful information from data and helps marketers in discerning the right insights.These insights can be on various marketing aspects such as customer intent, experience, behavior, etc that would help them in efficiently optimizing their marketing strategies and derive maximum revenue.</p>
