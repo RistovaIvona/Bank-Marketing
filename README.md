@@ -85,7 +85,6 @@ In our case, several models are defined and in the next picture we can see the p
 <p>Both models have some predefined parameters and using them is not always best practice.
 In our case the models with parameter adjustment give some slight improvement less than 0.2. Therefore, models with predefined parameters are used so that a trade-off can be made because the time spent on setup does not give us any significant improvements.</p>
 
-
 </p>XGBoost gives the best results, but in the end it was able to identify slightly more than a half of positive outcomes, which tells that there must be other ways to improve it. Maybe we need more data or we need to modify what we have. The data science process never ends.</p>
 
 
