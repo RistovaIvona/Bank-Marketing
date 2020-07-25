@@ -1,18 +1,25 @@
-<b><em>Bank Marketing (with social/economic context)</b></em>
+<b><strong>Bank Marketing (with social/economic context)</b></strong>
 
-## Introduction
+<b><em>Introduction </b></em>
 
+<small> 
+ <i>"Data-driven marketing is the engine behind improved marketing results and it creates measurable internal accountability as marketers become more effective in planning, executing and proving the value of their work" - Lisa Arthur</i>
+ 
 Marketing campaigns these days are necessary in every business, so it is the case in the financial services market too. In order to make the campaign successful it is mandatory to make analysis of customers’ needs and behaviors which will help to target customers and make the marketing campaigns more effective.
 
 This project is about telemarketing campaign of Portuguese bank for term deposits with data of contacted customers in period of 2008 to 2010 and their respond of the calls. The data has 41188 observations of calls with 20 customer’s demographic and transaction features each. Analyzing the customers’ features in correlation with their responses of the calls should lead to identify type of customers which are more likely to make term deposits.
 
 The aim of the project is to build a model which will predict the future response of new targeted customer.
 The project is done in few phases:
-1. Data Cleaning
-2. Features Analysis and Visualization
-3. Models implementation
-4. Models Summary
-5. Conclusion
+<ol>
+ <li>Data Cleaning</li>
+ <li>Features Analysis and Visualization</li>
+ <li>Models implementation</li>
+ <li>Models Summary</li>
+ <li>Conclusion</li>
+</ol>
+ 
+</small>
 
 ### Data Cleaning
 
