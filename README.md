@@ -14,164 +14,26 @@ The project is done in few phases:
 4. Models Summary
 5. Conclusion
 
-## Vizualization
+### Data Cleaning
 
-### Class distribution
+When analyzing the data, we do not have values that are missing or incomplete. All data left by clients as inaccessible/incomplete are attached as unknown.
+The purpose of our analysis is not to delete the missing data, but to find a correlation between the data and thus fill it.
+It is important to note that the unknown values in all features are not more than 5%, so some correlation can be made and filling in all the missing values.
+In the part of outliers, because it is about personal information and we do not have values that are unrealistic, they remain as specific cases. An example in this part are clients with more than 80 years that we really have and should not be deleted from the dataset.
 
-```
-from matplotlib import pyplot as plt
-sns.countplot(x=data['y'])
-plt.title('Distribution of classes')
-plt.xlabel('Target class')
-```
+### Features Analysis and Visualization
 
-| Image	|  
-|:-----------:|
-| ![Class distribution](slass distribution.png)|
-
-Comment: According to data distribution (two classes "yes" and "no") there is an unbalance data distribution. "Yes'es" is 88% and "No's" are 12%. For better understanding the data..... Since he....
-
-#"Age" variable explanation:
-
-"sns.FacetGrid(data, hue='y', size=5) \
-.map(sns.distplot, 'age') \
-.add_legend()
-plt.title('PDF of age for target variable y')"
-
-This graph shows the distribution of customers' age is left-side distributed which means that in data the majority of the costumers belong into group from 30 to 40 years.
-
-Knowing of the distribution of the class and the age-variable we divided the customer in the different age group in order to make better analysis how to age influance on the subscription rate.
-
-"lst = [data]
-for column in lst:
-    column.loc[column["age"] < 30,  'age_group'] = 30
-    column.loc[(column["age"] >= 30) & (column["age"] <= 44), 'age_group'] = 40
-    column.loc[(column["age"] >= 45) & (column["age"] <= 59), 'age_group'] = 50
-    column.loc[column["age"] >= 60, 'age_group'] = 60"
-    
-    
-"print('Success rate and total clients contacted for different age_groups:')
-print('Clients age < 30 contacted: {}, Success rate: {}'.format(len(data[data['age_group'] == 30]), data[data['age_group'] == 30].y.value_counts()[1]/len(data[data['age_group'] == 30])))
-print('Clients of age 30-45 contacted: {}, Success rate: {}'.format(len(data[data['age_group'] == 40]), data[data['age_group'] == 40].y.value_counts()[1]/len(data[data['age_group'] == 40])))
-print('Clients of age 40-60 contacted: {}, Success rate: {}'.format(len(data[data['age_group'] == 50]), data[data['age_group'] == 50].y.value_counts()[1]/len(data[data['age_group'] == 50])))
-print('Clients of 60+ age contacted: {}, Success rate: {}'.format(len(data[data['age_group'] == 60]), data[data['age_group'] == 60].y.value_counts()[1]/len(data[data['age_group'] == 60])))"
-
-"age = pd.DataFrame(data['age_group'].value_counts())
-age['% Contacted'] = age['age_group']*100/age['age_group'].sum()
-age['% Subscribed a term deposit'] = count_age_y['yes']
-age.drop('age_group',axis = 1,inplace = True)
-age['age'] = [30,40,50,20,60]
-age = age.sort_values('age',ascending = True)
-
-plot_age = age[['% Subscribed a term deposit','% Contacted']].plot(kind = 'bar',
-                                              figsize=(8,6), color = ('green','red'))
-plt.xlabel('Age Group')
-plt.ylabel('Subscription Rate')
-plt.xticks(np.arange(5), ('<30', '30-39', '40-49', '50-59', '60+'),rotation = 'horizontal')
-plt.title('Subscription vs. Contact Rate by Age')
-plt.show()"
-
-This graph indicates that the bank was focused on the 30s aged group(red bar), but this group has lower subscription rates(green bar) compared to the others aged groups.The bank was more effective with 20s and 60s aged group, which should be the next target. Considering that the term deposits are the most liquid and the most secure investment, the pattern is expected.The oldest aged group want to have cash and youngest do not have experience, knowledge and enough money for better and more sophisticated investments. On other hand, the 30s aged group have more loans and less money for savings.
-
-#"Duration" variable explanation
-
-"sns.boxplot(data=data, x="y", y="duration")
-plt.show()"
-
-From the above plot it is clear that, the duration (last contact duration) of a customer can be useful for predicting the target variable. It is expected because it is already mentioned in the data overview that this field highely affects the target variable and should only be used for benchmark purposes.
-
-#"Marital, Loan and House" 
-
-"Marriage=pd.crosstab(data["marital"],data['y'])
-Marriage.div(Marriage.sum(1).astype(float), axis=0).plot(kind="bar", stacked=True, figsize=(4,4))
-
-Loan=pd.crosstab(data["loan"],data['y'])
-Loan.div(Loan.sum(1).astype(float), axis=0).plot(kind="bar", stacked=True, figsize=(4,4))
-
-House=pd.crosstab(data["housing"],data['y'])
-House.div(House.sum(1).astype(float), axis=0).plot(kind="bar", stacked=True, figsize=(4,4))
-
-Education=pd.crosstab(data["education"],data['y'])
-Education.div(Education.sum(1).astype(float), axis=0).plot(kind="bar", stacked=True, figsize=(4,4))"
+Dataset has unbalansed standard distribution ("Yes" - 12% and "No" - 88%). 
+The majority of the costumers belong into group from 30 to 40 years. Knowing of the distribution of the class and the age-variable we divided the customer in the different age group in order to make better analysis how to age influance on the subscription rate. The bank was more effective with 20s and 60s aged group, which should be the next target. Considering that the term deposits are the most liquid and the most secure investment, the pattern is expected.The oldest aged group want to have cash and youngest do not have experience, knowledge and enough money for better and more sophisticated investments. On other hand, the 30s aged group have more loans and less money for savings.
+Also the "duration" (last contact duration) can be useful feature for predicting the target variable. It is expected because it is already mentioned in the data overview that this field highely affects the target variable and should only be used for benchmark purposes.
 
 These categorial fueatures (marital status, education and houseing) have not impact on supcription rate. Exception from this conclusion is the feature education, becouse the subcription rate of the iliterate shows higer rate of subscription. This is expected becouse this group dose not have knowlage for better and sofisticated kinds of investment. 
 
-#Sesion, month subcription rate
-"lst = [data]
-for column in lst:
-    column.loc[column["month"] == "jan", "month_int"] = 1
-    column.loc[column["month"] == "feb", "month_int"] = 2
-    column.loc[column["month"] == "mar", "month_int"] = 3
-    column.loc[column["month"] == "apr", "month_int"] = 4
-    column.loc[column["month"] == "may", "month_int"] = 5
-    column.loc[column["month"] == "jun", "month_int"] = 6
-    column.loc[column["month"] == "jul", "month_int"] = 7
-    column.loc[column["month"] == "aug", "month_int"] = 8
-    column.loc[column["month"] == "sep", "month_int"] = 9
-    column.loc[column["month"] == "oct", "month_int"] = 10
-    column.loc[column["month"] == "nov", "month_int"] = 11
-    column.loc[column["month"] == "dec", "month_int"] = 12"
-"count_month_y = pd.crosstab(data['y'],data['month_int']).apply(lambda x: x/x.sum() * 100)
-count_month_y = count_month_y.transpose()
+The bank’s contact rate and clients’ response rate in each month have diffrent directions. This can be interpret on two ways. Either the bank starts to contact the clients when the demand of deposits starts to decrease or that the bank has bad timing for contacting. The contact rate is the highest in may and august and on other hand, the highest subscription rate occured in march, september and october (link.......... za data vizualizacijaaaaaa)
 
-month = pd.DataFrame(data['month_int'].value_counts())
-month['% Contacted'] = month['month_int']*100/month['month_int'].sum()
-month['% Subscribed a term deposit'] = count_month_y['yes']
-month.drop('month_int',axis = 1,inplace = True)
-month['Month'] = [5,7,8,6,11,4,10,9,3,12]
-month = month.sort_values('Month',ascending = True)
+In corr matrix we add one categoric value to be as numerci, day_of_week as day_int so we can see that there is no correlation between categoric and numeric values as we expected to be. From the above heatmap we can see that there are some numerical features which share a high correlation between them, e.g nr.employed and euribor3m these features share a correlation value of 0.95, and euribor3m and emp.var.rate share a correlation of 0.97, which is very high compared to the other features that we see in the heatmap.
 
-
-plot_month = month[['% Subscribed a term deposit','% Contacted']].plot(kind ='line',
-                                                          figsize = (10,6),
-                                                          marker = 'o')
-plt.title('Subscribed a term deposit vs. Contact Rate by Month')
-plt.ylabel('Subscription and Contact Rate')
-plt.xlabel('Month')
-ticks = np.arange(1,13,1)
-plt.xticks(ticks)
-
-# Annotation: peak of contact
-y = month['% Contacted'].max()
-x = month['% Contacted'].idxmax()
-plt.annotate('May: Peak of contact', xy=(x+0.1, y+0.1), xytext=(x+1,y+4), arrowprops=dict(facecolor='black', headwidth=6, width=1, headlength=4), horizontalalignment='left', verticalalignment='top')
-# Annotation: peak of subscription rate
-y = month['% Subscribed a term deposit'].max()
-x = month['% Subscribed a term deposit'].idxmax()
-plt.annotate('March: Peak Subscription rate', xy=(x+0.1, y+0.1), xytext=(x+1,y+1), arrowprops=dict(facecolor='black', headwidth=6, width=1, headlength=4), horizontalalignment='left', verticalalignment='top')
-plt.show()"
-
-The graphic above shows the bank’s contact rate and clients’ response rate in each month.The trends of the lines have diffrent directions. This can be interpret on two ways. Either the bank starts to contact the clients when the demand of deposits starts to decrease or that the bank has bad timing for contacting. The contact rate is the highest in may and august and on other hand, the highest subscription rate occured in march, september and october.
-
-
-#Correlation"
-
-#Change 'day' from words to numbers for easier analysis
-#"mon","tue","wed","thu","fri"
-lst = [data]
-for column in lst:
-    column.loc[column["day_of_week"] == "mon", "day_int"] = 1
-    column.loc[column["day_of_week"] == "tue", "day_int"] = 2
-    column.loc[column["day_of_week"] == "wed", "day_int"] = 3
-    column.loc[column["day_of_week"] == "thu", "day_int"] = 4
-    column.loc[column["day_of_week"] == "fri", "day_int"] = 5"
-    
-    
-"lst = [data]
-for column in lst:
-    column.loc[column["age"] < 30,  'age_group'] = 20
-    column.loc[(column["age"] >= 30) & (column["age"] <= 39), 'age_group'] = 30
-    column.loc[(column["age"] >= 40) & (column["age"] <= 49), 'age_group'] = 40
-    column.loc[(column["age"] >= 50) & (column["age"] <= 59), 'age_group'] = 50
-    column.loc[column["age"] >= 60, 'age_group'] = 60"
-    
-    
-"def drawheatmap(df):
-    matrix = data.corr()
-    f, ax = plt.subplots(figsize=(15, 15))
-    sns.heatmap(matrix, vmax=.8, square=True, cmap='YlGnBu', ax=ax, annot=True, linewidth=0.1)"
-    
-  In corr matrix we add one categoric value to be as numerci, day_of_week as day_int so we can see that there is no correlation between categoric and numeric values as we expected to be. From the above heatmap we can see that there are some numerical features which share a high correlation between them, e.g nr.employed and euribor3m these features share a correlation value of 0.95, and euribor3m and emp.var.rate share a correlation of 0.97, which is very high compared to the other features that we see in the heatmap.
+### Models implementation
 
 Models Overview:
 In order to be able to discuss the models and their accuracy first must be completed, the data processing, reprocessing, cleaning and data analysis. In this section we divide the test and training data and define the models that can solve this classification problem.
@@ -186,7 +48,15 @@ In our case the models with parameter adjustment give some slight improvement le
 Conclusion
 XGBoost gives the best results, but in the end it was able to identify slightly more than a half of positive outcomes, which tells me there must be ways to improve it. Maybe I need more data or modify what I have. The data science process never ends.
 
+### Models Summary
+
+### Conclusion
+
+
 As George E. P. Box said: “all models are wrong, but some are useful”.
+
+  
+
 
 
 
