@@ -16,10 +16,14 @@ The project is done in few phases:
 
 ## Vizualization
 
-"" from matplotlib import pyplot as plt
+### Class distribution
+
+```
+from matplotlib import pyplot as plt
 sns.countplot(x=data['y'])
 plt.title('Distribution of classes')
-plt.xlabel('Target class') ""
+plt.xlabel('Target class')
+```
 
 Comment: According to data distribution (two classes "yes" and "no") there is an unbalance data distribution. "Yes'es" is 88% and "No's" are 12%. For better understanding the data..... Since he....
 
