@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+ <head>
+  <style>
+    p {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  </style>
+ </head>
 <body>
 
 <h2>Bank Marketing (with social/economic context)</h2>
