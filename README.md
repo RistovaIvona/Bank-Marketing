@@ -33,7 +33,9 @@ The bank’s contact rate and clients’ response rate in each month have diffre
 
 In corr matrix we add one categoric value to be as numerci, day_of_week as day_int so we can see that there is no correlation between categoric and numeric values as we expected to be. From the above heatmap we can see that there are some numerical features which share a high correlation between them, e.g nr.employed and euribor3m these features share a correlation value of 0.95, and euribor3m and emp.var.rate share a correlation of 0.97, which is very high compared to the other features that we see in the heatmap.
 
-<center>zdravo</center>
+<p align="center"> <img src = "https://media.macphun.com/img/uploads/customer/how-to/579/15531840725c93b5489d84e9.43781620.jpg?q=85&w=1340" width="50%" height="50%"/> </p>
+
+
 
 ### Models implementation
 
