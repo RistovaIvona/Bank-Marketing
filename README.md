@@ -7,12 +7,11 @@ This project is about telemarketing campaign of Portuguese bank for term deposit
 
 The aim of the project is to build a model which will predict the future response of new targeted customer.
 The project is done in few phases:
-1.      Data Cleaning
-2.      Features Analysis
-3.      Feature Visualization
-4.      Models implementation
-5.      Models Summary
-6.      Conclusion
+    Data Cleaning
+    Features Analysis and Visualization
+    Models implementation
+    Models Summary
+    Conclusion
 
 VISUALIZATION
 
