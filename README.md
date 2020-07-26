@@ -6,6 +6,8 @@
 
 <h2>Bank Marketing (with social/economic context)</h2>
 
+:star: Star us on GitHub — it helps!
+
 <h3>Introduction </h3>
 
 <small><p>
@@ -18,7 +20,7 @@ Over the past decade, information consumption has drastically shot up, generatin
 The aim of the project is to build a model which will predict the future response of new targeted customer.
 The project is done in few phases:
 <ol>
- <li>Data Cleaning</li>
+ <li>[Data Cleaning](Data Cleaning)</li>
  <li>Features Analysis and Visualization</li>
  <li>Models implementation</li>
  <li>Models Summary</li>
@@ -27,7 +29,7 @@ The project is done in few phases:
  
 </small></p>
 
-<h3>Data Cleaning</h3>
+##Data Cleaning
 
 <p>There is no missing or incomplete values. All data left by clients as inaccessible/incomplete are attached as unknown.
 The purpose of our analysis is not to delete the missing data, but to find a correlation between the data and thus fill it.
@@ -36,7 +38,7 @@ In the part of outliers, because it is about personal information and we do not 
 
 <h3>Features Analysis and Visualization</h3>
 
-<img src="https://pasteboard.co/JjpHyvY.png">
+<img src="https://github.com/RistovaIvona/BankClassification/blob/master/data%20dist.png">
 
 <p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). 
  
