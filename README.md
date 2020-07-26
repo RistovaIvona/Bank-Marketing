@@ -69,7 +69,7 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 
 <p>From the above heatmap we can see that there are some numerical features which share a high correlation between them, e.g nr.employed and euribor3m these features share a correlation value of 0.95, and euribor3m and emp.var.rate share a correlation of 0.97, which is very high compared to the other features that we see in the heatmap.
 
-:star: For more visualization and realitionships between the features read our file "Data Visualization".
+:star: For more visualization and relationships between the features read our file "Data Visualization".
 
 ## Models implementation 
 
