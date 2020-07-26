@@ -97,7 +97,7 @@ First when you get the datase, it is relly important to read and investigate dif
    <li><a href="http://media.salford-systems.com/video/tutorial/2015/targeted_marketing.pdf">http://media.salfordsystems.com/video/tutorial/2015/targeted_marketing.pdf</a></li>
    <li><a href="https://pdfs.semanticscholar.org/1999/417377ec21ecf7f7f55af62975065f785fb2.pdf">https://pdfs.semanticscholar.org/1999/417377ec21ecf7f7f55af62975065f785fb2.pdf</a></li>
    <li><a href="http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#">http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#</a></li>
-  <li><a href=" https://github.com/yfsui/Bank-Telemarketing-ML-Project/blob/master/Portuguese%20Bank%20Telemarketing%20Analysis.ipynb</a></li>
+   <li><a href=" https://github.com/yfsui/Bank-Telemarketing-ML-Project/blob/master/Portuguese%20Bank%20Telemarketing%20Analysis.ipynb</a></li>
    <li><a href="https://github.com/naveen-chauhan/Loan-Prediction-Classification/blob/master/Loan%2BPrediction.ipynb</a></li>   
  </ul>
 
