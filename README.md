@@ -88,7 +88,19 @@ In our case the models with parameter adjustment give some slight improvement le
 
 ## Conclusion
 
-<p>As George E. P. Box said: “all models are wrong, but some are useful”.</p>
+<p>
+First when you get the datase, it is relly important to read and investigate diffrent kind of  papers with marketing analysis. These are links of papers that we have read and helped us: 
+ <a href="url"></a>
+ <a href="url"></a>
+ <a href="url"></a>
+Second, when you will load the data you need to understand each attribute meaning. The meaning of the feature is essential to have view how the feature impact on the data and what you can expect.
+Third, clean data. We decided to replace the 'uknown' data. There are so many preprocess ways to clean and it is your way  to decide what you will do, but  you have to be sure that the data are good enough for modeling. For this data set preprocessing and feature understanding is the most important step.
+And last, try diffrent kind of models and compare the results and time.
+ 
+ As George E. P. Box said: “all models are wrong, but some are useful”.
+
+
+</p>
 
   
 </body>
