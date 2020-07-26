@@ -39,11 +39,12 @@ In the part of outliers, because it is about personal information and we do not 
 
 <img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/data%20dist.png">
 
-<p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). 
- 
-<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/pdf%20of%20age.png">
+<p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). </p>
 
-<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/sub%20vs%20contact%20rate.png">
+<div>
+ <img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/pdf%20of%20age.png">
+ <img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/sub%20vs%20contact%20rate.png">
+</div>
  
 <p>The majority of the costumers belong into group from 30 to 40 years. Considering the distribution of the class and the age-variable, we divided the customer in the different age-groups in order to make better analysis how age influance on the subscription rate. 
 The bank was more effective with 20s and 60s aged group, which should be the next target. Considering that the term deposits are the most liquid and the most secure investment, the pattern is expected.The oldest aged group want to have cash and youngest do not have experience, knowledge and enough money for better and more sophisticated investments. On other hand, the 30s aged group have more loans and less money for savings.</p>
