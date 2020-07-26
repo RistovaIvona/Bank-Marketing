@@ -52,7 +52,7 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 
 <p> Also the "duration" (last contact duration) can be useful feature for predicting the target variable. It is expected because it is already mentioned in the data overview that this field highely affects the target variable and should only be used for benchmark purposes.</p>
 
-<img src="https://github.com/RistovaIvona/BankClassification/blob/master/marital.png">
+<img width="100" height="100" src="https://github.com/RistovaIvona/BankClassification/blob/master/marital.png">
 <img src="https://github.com/RistovaIvona/BankClassification/blob/master/education%20(1).png">
 <img src="https://github.com/RistovaIvona/BankClassification/blob/master/housing.png">
 
