@@ -10,6 +10,7 @@ from best_model.model_utils import clean_data, categorical_values, mean_encoder
 from best_model.load_and_split import train_test
 from joblib import dump
 
+
 if __name__ == "__main__":
     # read the raw data, preprocess it and save it.
     data_filename = pd.read_csv('dataset.csv',sep = ';')
