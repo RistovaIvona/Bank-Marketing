@@ -69,6 +69,8 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 
 <p>From the above heatmap we can see that there are some numerical features which share a high correlation between them, e.g nr.employed and euribor3m these features share a correlation value of 0.95, and euribor3m and emp.var.rate share a correlation of 0.97, which is very high compared to the other features that we see in the heatmap.
 
+:star: For more visualization and realitionships between the features read our file "Data Visualization".
+
 ## Models implementation 
 
 <p>In order to be able to discuss the models and their accuracy first must be completed, the data processing, reprocessing, cleaning and data analysis. In this section we divide the test and training data and define the models that can solve this classification problem.
@@ -85,6 +87,7 @@ In our case the models with parameter adjustment give some slight improvement le
 
 </p>XGBoost gives the best results, but in the end it was able to identify slightly more than a half of positive outcomes, which tells that there must be other ways to improve it. Maybe we need more data or we need to modify what we have. The data science process never ends.</p>
 
+:star: To see all the models that we have tried please read our file "Models-with-MeanEncoder".
 
 ## Conclusion
 
