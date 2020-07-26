@@ -69,7 +69,7 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 
 <p>From the above heatmap we can see that there are some numerical features which share a high correlation between them, e.g nr.employed and euribor3m these features share a correlation value of 0.95, and euribor3m and emp.var.rate share a correlation of 0.97, which is very high compared to the other features that we see in the heatmap.
 
-:star: For more visualization and relationships between the features read our file "Data Visualization".
+:star: For more visualization and relationships between the features read our file  <b>"Data Visualization".</b>
 
 ## Models implementation 
 
@@ -78,7 +78,7 @@ In our case, several models are defined and in the next picture we can see the p
 
 <img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/models.png">
  
-<p>From what has been shown, it is clear that Gradient Boosting and XGBoost give the best results. For example, XGBoost derived from chain of tree based models and has it roots in the very first Decision Tree Model. Each model had improvements over the previous one, making XGBoost and Gradient Boost most advanced and sophisticated models so far.</p>
+<p>From what has been shown,<b>it is clear that Gradient Boosting and XGBoost give the best results.</b> For example, XGBoost derived from chain of tree based models and has it roots in the very first Decision Tree Model. Each model had improvements over the previous one, making XGBoost and Gradient Boost most advanced and sophisticated models so far.</p>
 
 <img width="500" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/roc.png">
 
@@ -87,7 +87,7 @@ In our case the models with parameter adjustment give some slight improvement le
 
 </p>XGBoost gives the best results, but in the end it was able to identify slightly more than a half of positive outcomes, which tells that there must be other ways to improve it. Maybe we need more data or we need to modify what we have. The data science process never ends.</p>
 
-:star: To see all the models that we have tried please read our file "Models-with-MeanEncoder".
+:star: To see all the models that we have tried please read our file <b>"Models-with-MeanEncoder"</b>.
 
 ## Conclusion
 
