@@ -98,15 +98,14 @@ First when you get the datase, it is relly important to read and investigate dif
    <li><a href="https://pdfs.semanticscholar.org/1999/417377ec21ecf7f7f55af62975065f785fb2.pdf">https://pdfs.semanticscholar.org/1999/417377ec21ecf7f7f55af62975065f785fb2.pdf</a></li>
    <li><a href="http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#">http://archive.ics.uci.edu/ml/datasets/Bank+Marketing#</a></li>
   <li><a href=" https://github.com/yfsui/Bank-Telemarketing-ML-Project/blob/master/Portuguese%20Bank%20Telemarketing%20Analysis.ipynb</a></li>
+   <li><a href="https://github.com/naveen-chauhan/Loan-Prediction-Classification/blob/master/Loan%2BPrediction.ipynb</a></li>   
  </ul>
 
 Second, when you will load the data you need to understand each attribute meaning. The meaning of the feature is essential to have view how the feature impact on the data and what you can expect.
 Third, clean data. We decided to replace the 'uknown' data. There are so many preprocess ways to clean and it is your way  to decide what you will do, but  you have to be sure that the data are good enough for modeling. For this data set preprocessing and feature understanding is the most important step.
 And last, try diffrent kind of models and compare the results and time.
  
- As George E. P. Box said: “all models are wrong, but some are useful”.
-
-
+As George E. P. Box said: “all models are wrong, but some are useful”.
 </p>
 
   
