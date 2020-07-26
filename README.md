@@ -42,7 +42,7 @@ In the part of outliers, because it is about personal information and we do not 
 <p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). </p>
 
 <div>
- <a href="google.com"><img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/pdf%20of%20age.png"></a>
+ <a href="https://www.google.com"><img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/pdf%20of%20age.png"></a>
  <img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/sub%20vs%20contact%20rate.png">
 </div>
  
