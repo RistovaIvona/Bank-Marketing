@@ -20,26 +20,13 @@ Over the past decade, information consumption has drastically shot up, generatin
 The aim of the project is to build a model which will predict the future response of new targeted customer.
 The project is done in few phases:
 
- - [Data Cleaning](#Data Cleaning)
- <li>Features Analysis and Visualization</li>
- <li>Models implementation</li>
- <li>Models Summary</li>
- <li>Conclusion</li>
-</ol>
- 
+- [Data Cleaning](#data-cleaning)
+- [Features Analysis and Visualization](#feature-analysis-and-visualization)
+- [Models implementation](#models-implementation)
+- [Conclusion](#conclusion)
+
 </small></p>
 
-## Table of content
-
-- [Data Cleaning](#data-cleaning)
-- [Basic application](#basic-application)
-- [Database](#database)
-- [Installation](#installation)
-- [Setup](#setup)
-- [Admin](#admin)
-- [Hints](#hints)
-- [License](#license)
-- [Links](#links)
 
 ## Data Cleaning
 
@@ -48,7 +35,7 @@ The purpose of our analysis is not to delete the missing data, but to find a cor
 It is important to note that the unknown values in all features are not more than 5%. Considering this, we can use the correlation for fillment the 'unknown' values.
 In the part of outliers, because it is about personal information and we do not have values that are unrealistic, they remain as specific cases. An example in this part are clients with more than 80 years that should not be deleted from the dataset.</p>
 
-<h3>Features Analysis and Visualization</h3>
+## Features Analysis and Visualization
 
 <img src="https://github.com/RistovaIvona/BankClassification/blob/master/data%20dist.png">
 
@@ -79,7 +66,7 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 
 <p>From the above heatmap we can see that there are some numerical features which share a high correlation between them, e.g nr.employed and euribor3m these features share a correlation value of 0.95, and euribor3m and emp.var.rate share a correlation of 0.97, which is very high compared to the other features that we see in the heatmap.
 
-<h3> Models implementation </h3>
+## Models implementation 
 
 <p>In order to be able to discuss the models and their accuracy first must be completed, the data processing, reprocessing, cleaning and data analysis. In this section we divide the test and training data and define the models that can solve this classification problem.
 In our case, several models are defined and in the next picture we can see the progress and improvement of the accuracy of the models.</p>
@@ -97,7 +84,7 @@ In our case the models with parameter adjustment give some slight improvement le
 
 
 
-<h3>Conclusion</h3>
+## Conclusion
 
 
 <p>As George E. P. Box said: “all models are wrong, but some are useful”.</p>
