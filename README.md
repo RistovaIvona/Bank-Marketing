@@ -21,7 +21,7 @@ The aim of the project is to build a model which will predict the future respons
 The project is done in few phases:
 
 - [Data Cleaning](#data-cleaning)
-- [Features Analysis and Visualization](#feature-analysis-and-visualization)
+- [Features Analysis and Visualization](#features-analysis-and-visualization)
 - [Models implementation](#models-implementation)
 - [Conclusion](#conclusion)
 
