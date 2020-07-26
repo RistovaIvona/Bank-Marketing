@@ -20,7 +20,7 @@ Over the past decade, information consumption has drastically shot up, generatin
 The aim of the project is to build a model which will predict the future response of new targeted customer.
 The project is done in few phases:
 
- -[Data Cleaning](Data Cleaning)
+ - [Data Cleaning](#Data Cleaning)
  <li>Features Analysis and Visualization</li>
  <li>Models implementation</li>
  <li>Models Summary</li>
