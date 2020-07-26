@@ -41,7 +41,7 @@ In the part of outliers, because it is about personal information and we do not 
 
 <p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). 
  
-<img width="300" height="300"src="https://github.com/RistovaIvona/BankClassification/blob/master/pdf%20of%20age.png">
+<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/pdf%20of%20age.png">
 
 <img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/sub%20vs%20contact%20rate.png">
  
@@ -60,7 +60,7 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 
 <p>These categorial fueatures (marital status, education and houseing) have not impact on supcription rate. Exception from this conclusion is the feature education, becouse the subcription rate of the iliterate shows higer rate of subscription.This is expected because this group does not have knowledge for better and sofisticated kinds of investment. <p>
 
-<img src="https://github.com/RistovaIvona/BankClassification/blob/master/sub%20by%20month.png">
+<img width="350" height="350" src="https://github.com/RistovaIvona/BankClassification/blob/master/sub%20by%20month.png">
 
 <p>The bank’s contact rate and clients’ response rate in each month have diffrent directions. This can be interpret on two ways. Either the bank starts to contact the clients when the demand of deposits starts to decrease or that the bank has bad timing for contacting. The contact rate is the highest in may and august and on other hand, the highest subscription rate occured in march, september and october</p> 
 
