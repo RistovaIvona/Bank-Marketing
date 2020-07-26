@@ -78,7 +78,7 @@ In our case, several models are defined and in the next picture we can see the p
  
 <p>From what has been shown, it is clear that Gradient Boosting and XGBoost give the best results. For example, XGBoost derived from chain of tree based models and has it roots in the very first Decision Tree Model. Each model had improvements over the previous one, making XGBoost and Gradient Boost most advanced and sophisticated models so far.</p>
 
-<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/roc.png">
+<img width="500" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/roc.png">
 
 <p>Both models have some predefined parameters and using them is not always best practice.
 In our case the models with parameter adjustment give some slight improvement less than 0.2. Therefore, models with predefined parameters are used so that a trade-off can be made because the time spent on setup does not give us any significant improvements.</p>
