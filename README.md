@@ -41,7 +41,7 @@ The project is done in few phases:
 - [License](#license)
 - [Links](#links)
 
-##Data Cleaning
+## Data Cleaning
 
 <p>There is no missing or incomplete values. All data left by clients as inaccessible/incomplete are attached as unknown.
 The purpose of our analysis is not to delete the missing data, but to find a correlation between the data and thus fill it.
