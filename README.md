@@ -29,6 +29,18 @@ The project is done in few phases:
  
 </small></p>
 
+## Table of content
+
+- [Data Cleaning](#data-cleaning)
+- [Basic application](#basic-application)
+- [Database](#database)
+- [Installation](#installation)
+- [Setup](#setup)
+- [Admin](#admin)
+- [Hints](#hints)
+- [License](#license)
+- [Links](#links)
+
 ##Data Cleaning
 
 <p>There is no missing or incomplete values. All data left by clients as inaccessible/incomplete are attached as unknown.
