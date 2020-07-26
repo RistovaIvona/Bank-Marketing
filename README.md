@@ -53,9 +53,9 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 <p> Also the "duration" (last contact duration) can be useful feature for predicting the target variable. It is expected because it is already mentioned in the data overview that this field highely affects the target variable and should only be used for benchmark purposes.</p>
 
 <div>
- <img width="200" height="200" src="https://github.com/RistovaIvona/BankClassification/blob/master/marital.png">
- <img width="250" height="250" src="https://github.com/RistovaIvona/BankClassification/blob/master/education%20(1).png">
- <img width="250" height="250" src="https://github.com/RistovaIvona/BankClassification/blob/master/housing.png">
+ <img width="220" height="200" src="https://github.com/RistovaIvona/BankClassification/blob/master/marital.png">
+ <img width="220" height="220" src="https://github.com/RistovaIvona/BankClassification/blob/master/education%20(1).png">
+ <img width="220" height="220" src="https://github.com/RistovaIvona/BankClassification/blob/master/housing.png">
 </div>
 
 <p>These categorial fueatures (marital status, education and houseing) have not impact on supcription rate. Exception from this conclusion is the feature education, becouse the subcription rate of the iliterate shows higer rate of subscription.This is expected because this group does not have knowledge for better and sofisticated kinds of investment. <p>
