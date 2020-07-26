@@ -36,7 +36,7 @@ In the part of outliers, because it is about personal information and we do not 
 
 <h3>Features Analysis and Visualization</h3>
 
-<img src="https://lh3.googleusercontent.com/aeWP1Dm4PH1AvNtk7EiqrJxKOn8eN7xuP4sLVfEnjlPj-kk6rPFFtXUY6GJyFbrztToaotB6Qei0FCYwxE979aek1F0_DXeG4SjP9piMDCnkiwD3Nro9fjxs-YpAHgtunL2QHUA6_P3Ssy6BtCSr1xkHGY1Wzb4qUEmkOaZG2XIGVMUCJk01Mf_SmWaLZInY9tCSDg6GX6u5o0g9RAC6vHgIENXS4cJexBiBX4hoQlaOv4e2lkaS1VpFgK6fsanNFMiFagJQRXg6TegyyH30S28d-X8bYhLQKz1OIROW9Yy2_D9DRAOSvxmwvdo90lX4N-NfoPxmaE4pHy0XyVq9nRF_4QKdFcc3uJA4ZU6oSt9ZBoueCM22cDh_8hJcpP_8AGzOQ8uxld52vVrVtsI-dUmyoZJgEoz28mhcISY4_8JxR0HDJ7ROc1cbEjNkig6HRMBRD9GWA4E0MAuMF7Kshxb0DmtOKllQQOx95bVCuo9VObsh5WqFc9nbxYid9-vw6TNLjkddD72uO4B52Evy7ex-qHZQkEGH8nnb-DwxHUJCkaRPXypDyTShNoV8hTQnavWd9WJ42JMbPr56F8vLJUHwWYf565w07kw19l8yosfiCksMNLCvoqM3u7D-a5VBOkxkjVbfRMFqkNLDg1oz43uLcqR207RYUOL1WqmwXLhk88r7mWPww-ESW8ROkzjBcx86_A=w1920-h942-ft">
+<img src="https://pasteboard.co/JjpHyvY.png">
 
 <p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). 
  
