@@ -69,7 +69,7 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 
 <p>From the above heatmap we can see that there are some numerical features which share a high correlation between them, e.g nr.employed and euribor3m these features share a correlation value of 0.95, and euribor3m and emp.var.rate share a correlation of 0.97, which is very high compared to the other features that we see in the heatmap.
 
-:star: For more visualization and relationships between the features read our file  <a href="https://github.com/RistovaIvona/BankClassification/blob/master/DataVisualization/DataVisualization_update.ipynb"><b>"Data Visualization".</b></a>
+:star: For more visualization and relationships between the features read our file  <a href="https://github.com/RistovaIvona/BankClassification/blob/master/DataVisualization/DataVisualization.ipynb"><b>"Data Visualization".</b></a>
 
 ## Models implementation 
 
@@ -87,12 +87,12 @@ In our case the models with parameter adjustment give some slight improvement le
 
 </p>XGBoost gives the best results, but in the end it was able to identify slightly more than a half of positive outcomes, which tells that there must be other ways to improve it. Maybe we need more data or we need to modify what we have. The data science process never ends.</p>
 
-:star: To see all the models that we have tried please read our file <a href="https://github.com/RistovaIvona/BankClassification/blob/master/Models/Models-with-MeanEncoder-and-SMOTE.ipynb><b>"Models-with-MeanEncoder"</b></a>.
+:star: To see all the models that we have tried please read our file <a href="https://github.com/RistovaIvona/BankClassification/blob/master/Models/Models.ipynb><b>"Models-with-MeanEncoder"</b></a>.
 
-## Conclusion
+## Conclusions and recommendations for future research
 
 <p>
-First when you get the dataset, it is really important to read and investigate different kind of papers with marketing analysis. These are links of papers that we have read and helped us: 
+First when you get the datase, it is really important to read and investigate different kind of  papers with marketing analysis. These are links of papers that we have read and helped us: 
  <ul>
    <li><a href="http://media.salford-systems.com/video/tutorial/2015/targeted_marketing.pdf">http://media.salfordsystems.com/video/tutorial/2015/targeted_marketing.pdf</a></li>
    <li><a href="https://pdfs.semanticscholar.org/1999/417377ec21ecf7f7f55af62975065f785fb2.pdf">https://pdfs.semanticscholar.org/1999/417377ec21ecf7f7f55af62975065f785fb2.pdf</a></li>
