@@ -37,7 +37,8 @@ In the part of outliers, because it is about personal information and we do not 
 
 ## Features Analysis and Visualization
 
-<a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/data%20dist.png"></a>
+<p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3">
+<img width="40%" height="40%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/data%20dist.png"></a></p>
 
 <p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). </p>
 
