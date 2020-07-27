@@ -87,7 +87,7 @@ In our case the models with parameter adjustment give some slight improvement le
 
 </p>XGBoost gives the best results, but in the end it was able to identify slightly more than a half of positive outcomes, which tells that there must be other ways to improve it. Maybe we need more data or we need to modify what we have. The data science process never ends.</p>
 
-:star: To see all the models that we have tried please read our file <b>"Models-with-MeanEncoder"</b>.
+:star: To see all the models that we have tried please read our file <a href="https://github.com/RistovaIvona/BankClassification/tree/master/Models><b>"Models-with-MeanEncoder"</b></a>.
 
 ## Conclusion
 
