@@ -37,31 +37,31 @@ In the part of outliers, because it is about personal information and we do not 
 
 ## Features Analysis and Visualization
 
-<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/data%20dist.png">
+<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/data%20dist.png">
 
 <p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). </p>
 
 <div>
- <a href="https://www.google.com" target="_blank"><img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/pdf%20of%20age.png"></a>
- <img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/sub%20vs%20contact%20rate.png">
+ <a href="https://www.google.com" target="_blank"><img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/pdf%20of%20age.png"></a>
+ <img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/sub%20vs%20contact%20rate.png">
 </div>
  
 <p>The majority of the costumers belong into group from 30 to 40 years. Considering the distribution of the class and the age-variable, we divided the customer in the different age-groups in order to make better analysis how age influance on the subscription rate. 
 The bank was more effective with 20s and 60s aged group, which should be the next target. Considering that the term deposits are the most liquid and the most secure investment, the pattern is expected.The oldest aged group want to have cash and youngest do not have experience, knowledge and enough money for better and more sophisticated investments. On other hand, the 30s aged group have more loans and less money for savings.</p>
 
-<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/duration.png"> 
+<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/duration.png"> 
 
 <p> Also the "duration" (last contact duration) can be useful feature for predicting the target variable. It is expected because it is already mentioned in the data overview that this field highely affects the target variable and should only be used for benchmark purposes.</p>
 
 <div>
- <img width="220" height="200" src="https://github.com/RistovaIvona/BankClassification/blob/master/marital.png">
- <img width="220" height="220" src="https://github.com/RistovaIvona/BankClassification/blob/master/education%20(1).png">
- <img width="220" height="220" src="https://github.com/RistovaIvona/BankClassification/blob/master/housing.png">
+ <img width="220" height="200" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/marital.png">
+ <img width="220" height="220" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/education%20(1).png">
+ <img width="220" height="220" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/housing.png">
 </div>
 
 <p>These categorial fueatures (marital status, education and houseing) have not impact on supcription rate. Exception from this conclusion is the feature education, becouse the subcription rate of the iliterate shows higer rate of subscription.This is expected because this group does not have knowledge for better and sofisticated kinds of investment. <p>
 
-<img width="500" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/sub%20by%20month.png">
+<img width="500" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/sub%20by%20month.png">
 
 <p>The bank’s contact rate and clients’ response rate in each month have diffrent directions. This can be interpret on two ways. Either the bank starts to contact the clients when the demand of deposits starts to decrease or that the bank has bad timing for contacting. The contact rate is the highest in may and august and on other hand, the highest subscription rate occured in march, september and october</p> 
 
@@ -76,11 +76,11 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 <p>In order to be able to discuss the models and their accuracy first must be completed, the data processing, reprocessing, cleaning and data analysis. In this section we divide the test and training data and define the models that can solve this classification problem.
 In our case, several models are defined and in the next picture we can see the progress and improvement of the accuracy of the models.</p>
 
-<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/models.png">
+<img width="300" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/models.png">
  
 <p>From what has been shown,<b>it is clear that Gradient Boosting and XGBoost give the best results.</b> For example, XGBoost derived from chain of tree based models and has it roots in the very first Decision Tree Model. Each model had improvements over the previous one, making XGBoost and Gradient Boost most advanced and sophisticated models so far.</p>
 
-<img width="500" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/roc.png">
+<img width="500" height="300" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/roc.png">
 
 <p>Both models have some predefined parameters and using them is not always best practice.
 In our case the models with parameter adjustment give some slight improvement less than 0.2. Therefore, models with predefined parameters are used so that a trade-off can be made because the time spent on setup does not give us any significant improvements.</p>
