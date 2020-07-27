@@ -92,7 +92,7 @@ In our case the models with parameter adjustment give some slight improvement le
 ## Conclusion
 
 <p>
-First when you get the datase, it is really important to read and investigate different kind of  papers with marketing analysis. These are links of papers that we have read and helped us: 
+First when you get the dataset, it is really important to read and investigate different kind of papers with marketing analysis. These are links of papers that we have read and helped us: 
  <ul>
    <li><a href="http://media.salford-systems.com/video/tutorial/2015/targeted_marketing.pdf">http://media.salfordsystems.com/video/tutorial/2015/targeted_marketing.pdf</a></li>
    <li><a href="https://pdfs.semanticscholar.org/1999/417377ec21ecf7f7f55af62975065f785fb2.pdf">https://pdfs.semanticscholar.org/1999/417377ec21ecf7f7f55af62975065f785fb2.pdf</a></li>
