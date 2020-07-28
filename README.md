@@ -54,15 +54,15 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 
 <p> Also the "duration" (last contact duration) can be useful feature for predicting the target variable. It is expected because it is already mentioned in the data overview that this field highely affects the target variable and should only be used for benchmark purposes.</p>
 
-<p align="center">
+<div>
  <a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="35%" height="35%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/marital.png"></a>
  <a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="35%" height="35%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/education%20(1).png"></a>
  <a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="35%" height="35%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/housing.png"></a>
-</p>
+</div>
 
 <p>These categorial fueatures (marital status, education and houseing) have not impact on supcription rate. Exception from this conclusion is the feature education, becouse the subcription rate of the iliterate shows higer rate of subscription.This is expected because this group does not have knowledge for better and sofisticated kinds of investment. <p>
 
-<p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="40%" height="40%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/sub%20by%20month.png"></a>
+<p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="60%" height="60%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/sub%20by%20month.png"></a>
 
 <p>The bank’s contact rate and clients’ response rate in each month have diffrent directions. This can be interpret on two ways. Either the bank starts to contact the clients when the demand of deposits starts to decrease or that the bank has bad timing for contacting. The contact rate is the highest in may and august and on other hand, the highest subscription rate occured in march, september and october</p> 
 
@@ -81,7 +81,7 @@ In our case, several models are defined and in the next picture we can see the p
  
 <p>From what has been shown,<b>it is clear that Gradient Boosting and XGBoost give the best results.</b> For example, XGBoost derived from chain of tree based models and has it roots in the very first Decision Tree Model. Each model had improvements over the previous one, making XGBoost and Gradient Boost most advanced and sophisticated models so far.</p>
 
-<p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="40%" height="40%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/roc.png"></a>
+<p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="50%" height="50%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/roc.png"></a>
 
 <p>Both models have some predefined parameters and using them is not always best practice.
 In our case the models with parameter adjustment give some slight improvement less than 0.2. Therefore, models with predefined parameters are used so that a trade-off can be made because the time spent on setup does not give us any significant improvements.</p>
