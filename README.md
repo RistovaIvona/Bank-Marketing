@@ -43,21 +43,21 @@ In the part of outliers, because it is about personal information and we do not 
 <p> Dataset has unbalanced standard distribution ("Yes" - 12% and "No" - 88%). </p>
 
 <p align="center">
-<a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="40%" height="40%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/pdf%20of%20age.png"></a>
-<img width="40%" height="40%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/sub%20vs%20contact%20rate.png"></a>
+<a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="45%" height="45%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/pdf%20of%20age.png"></a>
+<img width="45%" height="45%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/sub%20vs%20contact%20rate.png"></a>
 </p>
  
 <p>The majority of the costumers belong into group from 30 to 40 years. Considering the distribution of the class and the age-variable, we divided the customer in the different age-groups in order to make better analysis how age influance on the subscription rate. 
 The bank was more effective with 20s and 60s aged group, which should be the next target. Considering that the term deposits are the most liquid and the most secure investment, the pattern is expected.The oldest aged group want to have cash and youngest do not have experience, knowledge and enough money for better and more sophisticated investments. On other hand, the 30s aged group have more loans and less money for savings.</p>
 
-<p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="40%" height="40%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/duration.png"></a></p>
+<p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="45%" height="45%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/duration.png"></a></p>
 
 <p> Also the "duration" (last contact duration) can be useful feature for predicting the target variable. It is expected because it is already mentioned in the data overview that this field highely affects the target variable and should only be used for benchmark purposes.</p>
 
 <div>
- <a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="35%" height="35%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/marital.png"></a>
- <a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="35%" height="35%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/education%20(1).png"></a>
- <a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="35%" height="35%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/housing.png"></a>
+ <a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="33%" height="33%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/marital.png"></a>
+ <a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="33%" height="33%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/education%20(1).png"></a>
+ <a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="33%" height="33%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/housing.png"></a>
 </div>
 
 <p>These categorial fueatures (marital status, education and houseing) have not impact on supcription rate. Exception from this conclusion is the feature education, becouse the subcription rate of the iliterate shows higer rate of subscription.This is expected because this group does not have knowledge for better and sofisticated kinds of investment. <p>
