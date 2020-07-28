@@ -8,7 +8,7 @@ import pandas as pd
 import xgboost as xgb
 from best_model.model_utils import clean_data, categorical_values, mean_encoder
 from best_model.load_and_split import train_test
-from joblib import dump
+import joblib
 
 
 if __name__ == "__main__":
@@ -24,7 +24,11 @@ if __name__ == "__main__":
     # model 
     clf = xgb.XGBClassifier(max_depth=5, n_estimators=100 ,class_weight='balanced', n_jobs=-1)
     clf.fit(X_train, y_train)
-    dump(clf, 'xgb_model.joblib') 
+ 
+    # save the model to disk
+    joblib.dump(clf, 'model.pkl')
+    #filename = 'finalized_model.sav'
+    #joblib.dump(clf, filename)
     
     print()
 
