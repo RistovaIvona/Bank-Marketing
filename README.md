@@ -81,7 +81,9 @@ The bank was more effective with 20s and 60s aged group, which should be the nex
 
 <p>In order to be able to discuss the models and their accuracy first must be completed, the data processing, reprocessing, cleaning and data analysis. 
 To make better results we compare some techniques and here we present the best of them.
-One very common step in any feature engineering task is converting categorical features into numerical. This is called encoding and although there are several encoding techniques, there’s one in particular that we use here — mean encoding.
+Before we build and train models we make feature engineering task and split the data into train and test.
+ 
+One very common step in any feature engineering task is converting categorical features into numerical. This is called encoding and although there are several encoding techniques, there’s one in particular that we use here — mean encoding. 
 Unlike label encoding, which gets the work done efficiently but in a random way, mean encoding tries to approach the problem more logically. In a nutshell, it uses the target variable as the basis to generate the new encoded feature. So, this is the first part that we want to present something different from basic encoding, and we get better results.
 
 In our case, several models are defined and in the next picture we can see the progress and improvement of the accuracy of the models.</p>
