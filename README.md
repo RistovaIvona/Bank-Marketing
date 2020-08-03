@@ -35,6 +35,9 @@ The purpose of our analysis is not to delete the missing data, but to find a cor
 It is important to note that the unknown values in all features are not more than 5%. Considering this, we can use the correlation for fillment the 'unknown' values.
 In the part of outliers, because it is about personal information and we do not have values that are unrealistic, they remain as specific cases. An example in this part are clients with more than 80 years that should not be deleted from the dataset.</p>
 
+<p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/93473b465c17e2a4f55da114d3331e901aa02d23">
+<img width="75%" height="75%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/missing.png"></a></p>
+
 ## Features Analysis and Visualization
 
 <p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3">
