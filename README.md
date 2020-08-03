@@ -86,7 +86,9 @@ Before we build and train models we make feature engineering task and split the 
 One very common step in any feature engineering task is converting categorical features into numerical. This is called encoding and although there are several encoding techniques, there’s one in particular that we use here — mean encoding. 
 Unlike label encoding, which gets the work done efficiently but in a random way, mean encoding tries to approach the problem more logically. In a nutshell, it uses the target variable as the basis to generate the new encoded feature. So, this is the first part that we want to present something different from basic encoding, and we get better results.
 
-In our case, several models are defined and in the next picture we can see the progress and improvement of the accuracy of the models.</p>
+The problem with this dataset is that we have imbalanced classification problem and we can not use simple split to dataset. The challenge of working with imbalanced datasets is that most machine learning techniques will ignore, and in turn have poor performance on, the minority class, although typically it is performance on the minority class that is most important. One way to solve this problem is to oversample the examples in the minority class. This can be achieved by simply duplicating examples from the minority class in the training dataset prior to fitting a model. This can balance the class distribution but does not provide any additional information to the model. The most widely used approach to synthesizing new examples is called the Synthetic Minority Oversampling Technique, or SMOTE for short. This technique is used in our dataset too and with its usage the results are better.  
+
+Several models are defined and in the next picture, so we can see the progress and improvement of the accuracy of the models.</p>
 
 <p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/fc01a98eaac76965e19f3df831610e07a148a7b3"><img width="40%" height="40%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/models.png"></a></p>
  
