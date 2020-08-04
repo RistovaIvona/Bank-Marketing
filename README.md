@@ -8,6 +8,7 @@
 
 :star: Star us on GitHub — it helps!
 
+<p align="center"><img src="https://github.com/RistovaIvona/Bank-Marketing/blob/master/documentation/gvideo.gif" /></p>
 <h3>Introduction </h3>
 
 <small><p>
