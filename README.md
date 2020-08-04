@@ -100,7 +100,10 @@ Several models are defined and in the next picture, so we can see the progress a
 <p>Both models have some predefined parameters and using them is not always best practice.
 In our case the models with parameter adjustment give some slight improvement less than 0.2. Therefore, models with predefined parameters are used so that a trade-off can be made because the time spent on setup does not give us any significant improvements.</p>
 
-</p>XGBoost gives the best results, but in the end it was able to identify slightly more than a half of positive outcomes, which tells that there must be other ways to improve it. Maybe we need more data or we need to modify what we have. The data science process never ends.</p>
+</p>XGBoost gives us the best results but beside that there is always a way to get better results. Maybe we need more data or we need to modify what we have. The data science process never ends. In the picture below we present the final classification report from the selected best model. </p>
+
+<p align="center"><a href="https://github.com/RistovaIvona/BankClassification/commit/000a3f1e33a793d9aca8660065f7c13883d67910">
+<img width="40%" height="40%" src="https://github.com/RistovaIvona/BankClassification/blob/master/documentation/classification_report.PNG"></a></p>
 
 :star: To see all the models that we have tried please read our file <a href="https://github.com/RistovaIvona/BankClassification/blob/master/Models.ipynb"><b>"Models"</b></a>.
 
