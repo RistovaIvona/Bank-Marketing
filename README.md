@@ -7,7 +7,9 @@
 <h2>Bank Marketing (with social/economic context)</h2>
 
 :star: Star us on GitHub — it helps!
-
+<video width="320" height="240" controls>
+  <source src="https://github.com/RistovaIvona/Bank-Marketing/blob/master/documentation/video.mp4" type="video/mp4">
+</video>
 <h3>Introduction </h3>
 
 <small><p>
