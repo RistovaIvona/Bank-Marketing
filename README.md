@@ -8,7 +8,8 @@
 
 :star: Star us on GitHub — it helps!
 <video width="320" height="240" controls>
-  <source src="https://github.com/RistovaIvona/Bank-Marketing/blob/master/documentation/video.mp4" type="video/mp4">
+  <source src="https://www.youtube.com/watch?v=X3paOmcrTjQ" type="video/mp4">
+ <source src="https://github.com/RistovaIvona/BankClassification/commit/93473b465c17e2a4f55da114d3331e901aa02d23" type="video/ogg">
 </video>
 <h3>Introduction </h3>
 
