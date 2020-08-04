@@ -7,10 +7,15 @@
 <h2>Bank Marketing (with social/economic context)</h2>
 
 :star: Star us on GitHub — it helps!
+
 <video width="320" height="240" controls>
   <source src="https://www.youtube.com/watch?v=X3paOmcrTjQ" type="video/mp4">
  <source src="https://github.com/RistovaIvona/BankClassification/commit/93473b465c17e2a4f55da114d3331e901aa02d23" type="video/ogg">
 </video>
+
+[Video](https://www.youtube.com/watch?v=X3paOmcrTjQ]
+
+[![](https://miro.medium.com/max/875/1*9onqVYdPPrCcwDX6mGKCpg.jpeg)](https://www.youtube.com/watch?v=X3paOmcrTjQ)
 <h3>Introduction </h3>
 
 <small><p>
